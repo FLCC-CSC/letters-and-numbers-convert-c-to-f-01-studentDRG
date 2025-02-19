@@ -4,18 +4,7 @@
 # DATE - 
 # DESCRIPTION - 
 
-
-
-def main():
-    convertCF()
-
-def convertCF():
-    temp = float(input('Enter a temperature in Celsius: '))
-    newTemp = temp * 9 / 5 + 32
-    print()
-    print(temp, 'degreeeees Celsius is', newTemp, 'degrees Fahrenheit.')
-
-main()
-
-
-
+temp = float(input('Enter a temperature in Celsius: '))
+newTemp = temp * 9 / 5 + 32
+print()
+print(temp, 'degrees Celsius is', newTemp, 'degrees Fahrenheit.')

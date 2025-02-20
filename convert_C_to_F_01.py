@@ -5,6 +5,6 @@
 # DESCRIPTION - 
 
 temp = float(input('Enter a temperature in Celsius: '))
-newTemp = temp * 9 / 5 + 326
+newTemp = temp * 9 / 5 + 3267
 print()
 print(temp, 'degrees Celsius is', newTemp, 'degrees Fahrenheit.')
